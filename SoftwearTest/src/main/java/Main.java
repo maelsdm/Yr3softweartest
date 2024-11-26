@@ -17,19 +17,20 @@ public class Main {
         frame.add(map);
         LocationSystem ls = new LocationSystem();
         int i = 0;
-        while (i < 100) {
+        while (true) {
             System.out.println(i);
             i++;
             Thread.sleep(1000);
             map.repaint();
-            map.getDistance();
-            if(map.getDistance()<60){
-                alertSystem.alertAKeeper();
-            }
+            //ran out of time to execute this but its almost all there :c
+            //if(map.getDistance()<60){
+            //    alertSystem.alertAKeeper(map.getNumbers());
+            //    alertSystem.alertADrone(map.getFreq());
+            //}
 
         }
 
-        System.out.println("aa");
+
 
 
 

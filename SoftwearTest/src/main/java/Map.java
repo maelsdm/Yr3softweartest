@@ -37,6 +37,12 @@ public class Map extends Canvas {
         Distance = (int) Math.hypot(P1.getX() - P2.getX(),P1.getY() - P2.getY());
 
     }
+    public ArrayList<Integer> getNumbers(){
+        return numbers;
+    }
+    public ArrayList<Integer> getFreq(){
+        return Freq;
+    }
 
 
     public int getDistance() {
